@@ -41,7 +41,7 @@ def ai_subcategory(subject, content):
     return response.text
 
 def fetch_faqs_by_category(sub_category):
-    db_path = 'faq_database.db'  # Make sure this path is correct
+    db_path = 'faq_database.db'
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
@@ -54,7 +54,7 @@ def fetch_faqs_by_category(sub_category):
     if not rows:
         return "No FAQ data available for this category."
 
-    # Format the rows into a readable string for Gemini
+    # formatting
     faqs_text = ""
     for question, answer in rows:
         faqs_text += f"Q: {question}\nA: {answer}\n\n"
@@ -349,8 +349,8 @@ def main_function(gmail_creds, sheet_creds, docs_creds):
 
     update_feedback_summary_doc(docs_creds, doc_id, prev_summary)
 
-Sheet_ID = '1va5hfXBBf8sqFFeGuLzpBpSm-uFPbQlc7w_0j5zXyXg'
-Sheet_Name = 'Sheet1'
+Sheet_ID = os.getenv("SHEET_ID")
+Sheet_Name = os.getenv("SHEET_NAME")
 
 def add_to_sheet(sheet_creds, data):
     range_ = f"{Sheet_Name}!A:I" # A to I are what I need
