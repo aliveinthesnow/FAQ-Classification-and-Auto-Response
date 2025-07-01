@@ -5,7 +5,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 import json
 from datetime import datetime    #so I can insert into sheet
 import google.generativeai as genai
-import sqlite3
+import mysql.connector
 from email.mime.text import MIMEText
 import base64    #used to get the received mail in the plain text
 from googleapiclient.discovery import build
@@ -41,14 +41,24 @@ def ai_subcategory(subject, content):
     return response.text
 
 def fetch_faqs_by_category(sub_category):
-    db_path = 'faq_database.db'
-    conn = sqlite3.connect(db_path)
+    conn = mysql.connector.connect(
+        host='localhost',
+        user=os.getenv("MY_SQL_USERNAME"),
+        password=os.getenv("MY_SQL_PASSWORD"),
+        database='FAQ_Project'
+    )
     cursor = conn.cursor()
 
-    query = "SELECT question, answer FROM faqs WHERE category = ?"
+    query = """
+        SELECT f.question, f.answer
+        FROM faqs f
+        JOIN categories c ON f.category_id = c.id
+        WHERE c.name = %s
+    """
     cursor.execute(query, (sub_category,))
     rows = cursor.fetchall()
 
+    cursor.close()
     conn.close()
 
     if not rows:
@@ -60,6 +70,7 @@ def fetch_faqs_by_category(sub_category):
         faqs_text += f"Q: {question}\nA: {answer}\n\n"
 
     return faqs_text.strip()
+
 
 def ai_responsetype(subject, content, data_of_sub_category):
     prompt = f"""I am giving you the subject and content from a mail my company has received.

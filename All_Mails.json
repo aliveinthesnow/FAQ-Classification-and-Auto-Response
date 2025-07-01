@@ -1,1 +1,92 @@
-[]
+[
+    {
+        "from": "Retro Pix <retropixshop@gmail.com>",
+        "subject": "Problems with the mobile app",
+        "content": "Hi. I have been a long term user of the app. However, over the past few\r\ndays, the app has been crashing quite a bit. Is there any fix for this\r\nissue?\r\nAlso, I'm unsure of how I'm supposed to update the app.\r\nPlease help me out\r\nThanks\r\n",
+        "category": "Query",
+        "sub_category": "App",
+        "response_type": "FAQ",
+        "status": "Email Sent",
+        "mail_sent": "Dear Customer,\n\nWe're sorry to hear you're experiencing issues with our app crashing. We value our customers and their experience using our platform, and we will do our best to solve the issue. Frequent crashing is indeed a common problem, but rest assured, we're here to help.\n\nTo resolve this, we recommend first trying to reinstall the app. If that doesn't work, please visit the App Store (for iOS) or Play Store (for Android) to ensure you have the latest version installed. Updating often resolves many common issues.\n\nIf the problem persists after these steps, please don't hesitate to contact us again with details about your device and the specific actions you were taking when the crashes occurred. This information will help us investigate further.\n\nThank you for your patience and understanding.\n\nSincerely,\n\nRakesh,\nCustomer Relationship Manager,\nThe UrbanThread Co.\n"
+    },
+    {
+        "from": "Random <randombusinesstesting@gmail.com>",
+        "subject": "Not received my order",
+        "content": "Hi\r\nMy order number is - AJ4463PEL\r\nI've not yet received my order. It has been over a week and the tracking\r\nsystem is not working. I need a definitive date for the delivery.\r\nKindly look into this.\r\nThanks\r\n",
+        "category": "Query",
+        "sub_category": "Shipping",
+        "response_type": "FAQ",
+        "status": "Email Sent",
+        "mail_sent": "Dear Customer,\n\nWe understand your order hasn't arrived yet and appreciate you bringing this to our attention. We sincerely apologize for the inconvenience and lack of tracking information.\n\nFirstly, please allow us to immediately investigate the status of order AJ4463PEL. We'll trace its location and identify any potential delays in transit. In the event that the package has been lost, we will arrange for either a resend of your order or a full refund, according to your preference.\n\nRest assured, we will provide you with a definitive delivery date as soon as possible.\n\nIn the meantime, you can also find the tracking information that has been emailed to you in the 'My Orders' section of our website.\n\nIf you require any further assistance or have additional questions, please don't hesitate to contact us.\n\nSincerely,\n\nRakesh,\nCustomer Relationship Manager,\nUrbanThread Co.\n"
+    },
+    {
+        "from": "Rohan Singh <rohansinghhead@gmail.com>",
+        "subject": "Hi, this is the first test of the FAQ project you're doing",
+        "content": "I really hope this is working well for you. Seems like a really great and\r\nuseful project. All the best for all your future endeavors.\r\nYours Truly\r\nRohan\r\nFounder and CEO\r\nSome Company Ltd.\r\n",
+        "category": "Feedback",
+        "sub_category": "NIL",
+        "response_type": "NIL",
+        "status": "Pending",
+        "mail_sent": "NIL"
+    },
+    {
+        "from": "Retro Pix <retropixshop@gmail.com>",
+        "subject": "Problems with the mobile app",
+        "content": "Hi. I have been a long term user of the app. However, over the past few\r\ndays, the app has been crashing quite a bit. Is there any fix for this\r\nissue?\r\nAlso, I'm unsure of how I'm supposed to update the app.\r\nPlease help me out\r\nThanks\r\n",
+        "category": "Query",
+        "sub_category": "App",
+        "response_type": "FAQ",
+        "status": "Email Sent",
+        "mail_sent": "Dear Customer,\n\nWe understand you've been experiencing some issues with our app's stability, and we apologize for any inconvenience this may have caused. We value our long-term users like yourself!\n\nFor the frequent crashing issue, we recommend first trying to reinstall the app. If the problem persists, please ensure you are using the latest version of the app.\n\nTo update the app, simply visit the App Store (for iOS devices) or the Google Play Store (for Android devices) and check for any available updates.\n\nIf you continue to experience problems after trying these steps, please don't hesitate to reach out to us again. We're here to help!\n\nSincerely,\n\nRakesh,\nCustomer Relationship Manager,\nThe UrbanThread Co.\n"
+    },
+    {
+        "from": "Random <randombusinesstesting@gmail.com>",
+        "subject": "Not received my order",
+        "content": "Hi\r\nMy order number is - AJ4463PEL\r\nI've not yet received my order. It has been over a week and the tracking\r\nsystem is not working. I need a definitive date for the delivery.\r\nKindly look into this.\r\nThanks\r\n",
+        "category": "Query",
+        "sub_category": "Shipping",
+        "response_type": "Complex",
+        "status": "Pending",
+        "mail_sent": "NIL"
+    },
+    {
+        "from": "Rohan Singh <rohansinghhead@gmail.com>",
+        "subject": "Hi, this is the first test of the FAQ project you're doing",
+        "content": "I really hope this is working well for you. Seems like a really great and\r\nuseful project. All the best for all your future endeavors.\r\nYours Truly\r\nRohan\r\nFounder and CEO\r\nSome Company Ltd.\r\n",
+        "category": "Feedback",
+        "sub_category": "NIL",
+        "response_type": "NIL",
+        "status": "Pending",
+        "mail_sent": "NIL"
+    },
+    {
+        "from": "Retro Pix <retropixshop@gmail.com>",
+        "subject": "Problems with the mobile app",
+        "content": "Hi. I have been a long term user of the app. However, over the past few\r\ndays, the app has been crashing quite a bit. Is there any fix for this\r\nissue?\r\nAlso, I'm unsure of how I'm supposed to update the app.\r\nPlease help me out\r\nThanks\r\n",
+        "category": "Query",
+        "sub_category": "App",
+        "response_type": "FAQ",
+        "status": "Email Sent",
+        "mail_sent": "Dear Customer,\n\nWe regret to hear that you have been facing issues with our app. We are constantly working on improving our app experience and will make sure our team looks into this issue.\n\nIn the meantime, you can try the following steps:\n1. Reinstall the app. This usually fixes most crashing issues, as it clears any corrupted files.\n2. Update the app. Simply visit the App Store or Play Store, depending on whether you have an iOS or Android device, to update to the latest version. This will ensure that you have all the latest bug fixes and performance improvements.\n\nIf the issue persists after trying these steps, please do not hesitate to reach out to us again.\n\nSincerely,\n\nRakesh,\nCustomer Relationship Manager,\nThe UrbanThread Co.\n"
+    },
+    {
+        "from": "Random <randombusinesstesting@gmail.com>",
+        "subject": "Not received my order",
+        "content": "Hi\r\nMy order number is - AJ4463PEL\r\nI've not yet received my order. It has been over a week and the tracking\r\nsystem is not working. I need a definitive date for the delivery.\r\nKindly look into this.\r\nThanks\r\n",
+        "category": "Query",
+        "sub_category": "Shipping",
+        "response_type": "FAQ",
+        "status": "Email Sent",
+        "mail_sent": "Dear Customer,\n\nWe understand your order hasn't arrived as expected and that the tracking information is unavailable. We sincerely apologize for the inconvenience this has caused. We value your business and are ready to assist.\n\nWe will immediately investigate the status of order number AJ4463PEL and provide you with a definitive delivery date as soon as possible. Should the package be deemed lost during our investigation, we will resend your order or issue a full refund, based on your preference.\n\nPlease be assured that we are on top of it and should have an update for you within 24 hours.\n\nIf you require any further assistance, feel free to reach out to us anytime.\n\nSincerely,\n\nRakesh,\nCustomer Relationship Manager,\nThe UrbanThread Co.\n"
+    },
+    {
+        "from": "Rohan Singh <rohansinghhead@gmail.com>",
+        "subject": "Hi, this is the first test of the FAQ project you're doing",
+        "content": "I really hope this is working well for you. Seems like a really great and\r\nuseful project. All the best for all your future endeavors.\r\nYours Truly\r\nRohan\r\nFounder and CEO\r\nSome Company Ltd.\r\n",
+        "category": "Feedback",
+        "sub_category": "NIL",
+        "response_type": "NIL",
+        "status": "Pending",
+        "mail_sent": "NIL"
+    }
+]
